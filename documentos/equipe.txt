@@ -1,2 +1,18 @@
-RM:......... NOME: ......................TURMA:................
-RM:......... NOME: ......................TURMA:................
+RM:552295   NOME: Matheus Felipe Camarinha Duarte   TURMA: 2TDSPF
+RM:98672    NOME: Mirelly Ribeiro                   TURMA: 2TDSPF
+
+Pontos extras:
+
+
+Matheus Felipe:
+No dia 11/04/2024
+- Eu falei que o formato da data estava errado no postman. Ponto extra no CP2.
+
+No dia 11/04/2024
+- Eu falei que não era nenhuma das alternativas no questionário. Ponto extra no CP2.
+
+No dia 18/04/2024
+- Eu falei como faria para pesquisar uma classe pelos atributos. Que no caso, seria usando RequestParams e criando um Example. Ponto extra no CP2.
+
+No dia 25/04/2024
+- Falei sobre as regras da unique key e por que tem que ser considerado com determinados parametros a mesma regra. Ponto extra no CP2.
