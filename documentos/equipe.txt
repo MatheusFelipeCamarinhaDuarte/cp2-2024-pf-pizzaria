@@ -1,5 +1,5 @@
 RM:552295   NOME: Matheus Felipe Camarinha Duarte   TURMA: 2TDSPF
-RM:98672    NOME: Mirelly Ribeiro                   TURMA: 2TDSPF
+RM:98672    NOME: Mirelly Ribeiro Azevedo           TURMA: 2TDSPF
 
 Pontos extras:
 
