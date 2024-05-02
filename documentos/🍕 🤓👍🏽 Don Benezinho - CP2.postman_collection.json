@@ -1,0 +1,385 @@
+{
+	"info": {
+		"_postman_id": "a7f94c81-c3fe-49c2-bc6a-051f9306907f",
+		"name": "🍕 🤓👍🏽 Don Benezinho - CP2",
+		"description": "**Descrição**\n\nA Holding Benezinho está investindo no ramo da alimentação e por este motivo está desenvolvendo um site para seu primeiro negócio no ramo. Trata-se do site da Rede de Pizzarias Benezinho's.\n\nCom o objetivo de fazer este negócio dar certo, idealizamos o desenvolvimento de um Sistema de Gestão de Pizzarias e produtos a serem comercializados pelas lojas da rede.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34647451"
+	},
+	"item": [
+		{
+			"name": "Sabor",
+			"item": [
+				{
+					"name": "Sabores",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"nome\": \"Mussarela\",\r\n  \"descricao\": \"Mussarela com molho de tomate\"\r\n}\r\n\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/sabor",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"sabor"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Sabores - Exemplo",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/sabor",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"sabor"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Sabor - Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/sabor/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"sabor",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Opcional",
+			"item": [
+				{
+					"name": "Opcionais",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"nome\": \"Matt Pizzas\",\r\n  \"preco\": 50.32,\r\n  \"sabor\": {\r\n      \"nome\": \"Mussarela\",\r\n      \"descricao\": \"Mussarela com molho de tomate\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost/opcional",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"opcional"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Opcionais - Exemplo",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost/opcional",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"opcional"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Opcionais - Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost/opcional/1",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"opcional",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Produto",
+			"item": [
+				{
+					"name": "Produtos",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"nome\": \"Pizza 1\",\r\n  \"preco\": 50.20,\r\n  \"sabor\": \"Mussarela\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost/produto",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"produto"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Produtos - Exemplo",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost/produto",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"produto"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Produtos - Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost/produto/1",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"produto",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Produtos - Id/opcionais",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"nome\": \"Matt Pizzas\",\r\n  \"preco\": 50.32,\r\n  \"sabor\": {\r\n      \"nome\": \"Mussarela\",\r\n      \"descricao\": \"Mussarela com molho de tomate\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost/produto/1/opcionais",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"produto",
+								"1",
+								"opcionais"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Produtos - id/opcionais",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost/produto/1/opcionais",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"produto",
+								"1",
+								"opcionais"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Pizzaria",
+			"item": [
+				{
+					"name": "Pizzarias",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nome\": \"Matt Pizzas\",\r\n    \"produto\": {\r\n        \"nome\": \"Pizza 1\",\r\n        \"preco\": 50.20,\r\n        \"sabor\": \"Mussarela\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost/pizzaria",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"pizzaria"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Pizzarias - Exemplo",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost/pizzaria",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"pizzaria"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Pizzarias - Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost/pizzaria/1",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"pizzaria",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Pizzarias - Id/cardapio",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"nome\": \"Pizza 1\",\r\n  \"preco\": 50.20,\r\n  \"sabor\": \"Mussarela\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost/pizzaria/1/cardapio",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"pizzaria",
+								"1",
+								"cardapio"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Pizzarias - id/cardapio",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost/pizzaria/1/cardapio",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"pizzaria",
+								"1",
+								"cardapio"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
